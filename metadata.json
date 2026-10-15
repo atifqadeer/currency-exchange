@@ -1,0 +1,6 @@
+{
+  "name": "AetherX Digital Asset Exchange",
+  "description": "Institutional-grade cryptocurrency exchange featuring spot trading, live orderbook, simulated matching engine, multi-currency ledger wallet, and compliance admin portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
