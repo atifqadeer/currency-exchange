@@ -9,6 +9,8 @@ import {
   KYCSubmission,
   AuditLogItem,
 } from '../types/exchange';
+import avatarElena from '../assets/images/avatar_trader_elena_1792063343681.jpg';
+import avatarDavid from '../assets/images/avatar_compliance_david_1792063343576.jpg';
 
 export const INITIAL_ASSETS: Asset[] = [
   {
@@ -433,7 +435,7 @@ export const SEED_USERS: UserProfile[] = [
     id: 'usr_trader_elena',
     email: 'elena.rostova@trader.aetherx.io',
     name: 'Elena Rostova',
-    avatarUrl: '/src/assets/images/avatar_trader_elena_1792063343681.jpg',
+    avatarUrl: avatarElena,
     role: 'VIP',
     kycTier: 2,
     kycStatus: 'APPROVED',
@@ -447,7 +449,7 @@ export const SEED_USERS: UserProfile[] = [
     id: 'usr_compliance_david',
     email: 'david.vance@compliance.aetherx.io',
     name: 'David Vance',
-    avatarUrl: '/src/assets/images/avatar_compliance_david_1792063343576.jpg',
+    avatarUrl: avatarDavid,
     role: 'COMPLIANCE',
     kycTier: 2,
     kycStatus: 'APPROVED',
